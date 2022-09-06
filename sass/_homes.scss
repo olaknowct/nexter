@@ -14,6 +14,8 @@
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 3.5rem;
 
+  box-shadow: -1rem 1rem 3rem #6d5d4b;
+
   &__img {
     width: 100%;
     grid-row: 1 / 2;
