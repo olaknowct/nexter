@@ -1,4 +1,4 @@
-# MicroFlag
+# Nexter
 
 Link: 
 
@@ -9,7 +9,7 @@ Link:
 ## About
 
 - The project is used for educational purposes only, its part of the lesson i took from Jonas.
-- As part of my learnings and would benefit me, I've listed down here **(See features section)** all the PSEUDO Code, SUMMARY and features from this project
+- As part of my learnings and would benefit me, I've listed down some concepts/takeaway
 
 ## Concepts/Takeaway
 - The project uses CSS Grid as the main tool to configure all the layout, it gives the ability to define its layout easily by setting its template row and column.
