@@ -1,5 +1,6 @@
 const headerBtn = document.querySelector(".header__btn");
 const storyBtn = document.querySelector(".btn__story");
+const likeBtns = document.querySelectorAll(".home__like");
 
 const callback = (e) => {
   e.preventDefault();
@@ -12,5 +13,13 @@ const callback = (e) => {
   });
 };
 
+const toggleLike = (e) => {
+  e.path[1].classList.toggle("liked");
+};
+
 headerBtn.addEventListener("click", callback);
 storyBtn.addEventListener("click", callback);
+
+likeBtns.forEach((likeBtn) => {
+  likeBtn.addEventListener("click", toggleLike);
+});
