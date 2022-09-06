@@ -87,5 +87,18 @@
     height: 100%;
     object-fit: cover;
     display: block;
+
+    cursor: pointer;
+    transition: all 0.4s;
+    filter: brightness(0.4);
+    opacity: 0.5;
+
+    opacity: 0.5;
+    box-shadow: 0 0 3rem 1rem #b28451;
+
+    &:hover {
+      filter: brightness(1);
+      opacity: 1;
+    }
   }
 }
